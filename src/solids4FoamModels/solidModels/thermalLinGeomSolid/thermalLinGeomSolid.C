@@ -306,7 +306,7 @@ bool thermalLinGeomSolid::evolve()
         //T_.relax();
 
         // Update gradient of temperature
-        gradT_ = fvc::grad(T_);
+        // gradT_ = fvc::grad(T_);
 
         // Store fields for under-relaxation and residual calculation
         D().storePrevIter();
